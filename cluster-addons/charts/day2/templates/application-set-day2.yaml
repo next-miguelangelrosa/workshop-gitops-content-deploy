@@ -7,7 +7,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
+      repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
       revision: sno-4-setup
       files:
       - path: "config-definition/**/config.json"
@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
+        repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
         targetRevision: sno-4
         path: .
         helm:
