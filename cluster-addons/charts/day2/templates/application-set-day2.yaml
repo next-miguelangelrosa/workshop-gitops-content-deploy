@@ -13,7 +13,7 @@ spec:
       - path: "cluster-definition/**/cluster.json" #"config-definition/**/config.json" 
   template:
     metadata:
-      name: 'sno-4-{{path.basename}}'
+      name: 'sno-4-{{configuration}}'
     spec:
       project: default
       source:
