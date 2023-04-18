@@ -2,23 +2,23 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: day2-as-sno-4
+  name: day2-as-sno-<name>
   namespace: openshift-gitops
 spec:
   generators:
   - git:
-      repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
-      revision: sno-4-setup
+      repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
+      revision: sno-<name>-setup
       files:
       - path: "config-definition/**/config.json" 
   template:
     metadata:
-      name: 'sno-4-{{path.basename}}'
+      name: 'sno-<name>-{{path.basename}}'
     spec:
       project: default
       source:
-        repoURL: https://github.com/romerobu/helm-infra-gitops-workshop.git
-        targetRevision: sno-4-setup
+        repoURL: https://github.com/<your_user>/helm-infra-gitops-workshop.git
+        targetRevision: sno-<name>
         path: .
         helm:
           valueFiles:
