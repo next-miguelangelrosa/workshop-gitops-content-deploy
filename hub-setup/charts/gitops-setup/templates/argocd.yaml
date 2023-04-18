@@ -48,7 +48,7 @@ spec:
         health_status.message = "An install plan for a subscription is pending installation"
         return health_status
   applicationSet:
-    logLevel: info
+    logLevel: debug
   resourceTrackingMethod: annotation+label
   controller:
     logLevel: debug
