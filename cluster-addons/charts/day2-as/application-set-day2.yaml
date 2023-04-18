@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
+        repoURL: https://github.com/romerobu/helm-infra-gitops-workshop.git
         targetRevision: sno-4-setup
         path: .
         helm:
