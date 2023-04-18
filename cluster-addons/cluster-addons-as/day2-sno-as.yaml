@@ -19,7 +19,7 @@ spec:
       source:
         repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
         targetRevision: sno-4-setup
-        path: cluster-addons/charts/day2
+        path: cluster-addons/charts/day2-as
       destination:
         server: '{{cluster.address}}'
       syncPolicy:
