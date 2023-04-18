@@ -18,7 +18,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
-        targetRevision: sno-4
+        targetRevision: sno-4-setup
         path: .
         helm:
           valueFiles:
