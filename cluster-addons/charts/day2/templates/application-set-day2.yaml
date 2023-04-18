@@ -13,7 +13,7 @@ spec:
       - path: "config-definition/**/config.json"
   template:
     metadata:
-      name: 'day2-{{configuration}}-a'
+      name: 'day2-{{path.basename}}-a'
     spec:
       project: default
       source:
