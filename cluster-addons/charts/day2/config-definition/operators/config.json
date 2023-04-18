@@ -1,4 +1,4 @@
 {
-  "configuration": "operators",
+  "name": "operators",
   "valuesFile": "values-operators.yaml"
 }

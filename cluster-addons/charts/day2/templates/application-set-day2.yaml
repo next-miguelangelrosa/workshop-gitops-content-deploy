@@ -13,7 +13,7 @@ spec:
       - path: "cluster-addons/charts/day2/config-definition/**/config.json" 
   template:
     metadata:
-      name: 'day2-{{configuration}}-a'
+      name: 'day2-{{name}}-a'
     spec:
       project: default
       source:
