@@ -20,9 +20,9 @@ spec:
         repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
         targetRevision: sno-4-setup
         path: .
-          # helm:
-          #   valueFiles:
-          #     - '{{valuesFile}}'        
+        helm:
+          valueFiles:
+            - '{{valuesFile}}'        
       destination:
         server: 'https://kubernetes.default.svc'
         namespace: openshift-gitops
