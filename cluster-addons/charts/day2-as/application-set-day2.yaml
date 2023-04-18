@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: day2-as-sno-4
-  namespace: openshift-operators
+  namespace: openshift-gitops
 spec:
   generators:
   - git:
@@ -25,7 +25,6 @@ spec:
               - '{{valuesFile}}'        
       destination:
         server: 'https://kubernetes.default.svc'
-        namespace: ''
       syncPolicy:
         automated:
           prune: true
