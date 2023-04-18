@@ -10,7 +10,7 @@ spec:
       repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
       revision: sno-4-setup
       files:
-      - path: "cluster-addons/charts/day2/config-definition/**/config.json" 
+      - path: "config-definition/**/config.json" 
   template:
     metadata:
       name: 'day2-{{name}}-a'
