@@ -22,6 +22,7 @@ spec:
         path: cluster-addons/charts/day2-as
       destination:
         server: '{{cluster.address}}'
+        namespace: 'openshift-gitops'
       syncPolicy:
         automated:
           prune: true
