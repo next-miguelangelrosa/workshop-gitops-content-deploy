@@ -13,7 +13,7 @@ spec:
       - path: "config-definition/**/config.json" 
   template:
     metadata:
-      name: 'sno-4-{{name}}'
+      name: 'sno-4-{{path.basename}}'
     spec:
       project: default
       source:
