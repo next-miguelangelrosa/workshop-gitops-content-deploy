@@ -2,13 +2,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: day2-as-sno-<name>
+  name: day2-as-sno-4
   namespace: openshift-operators
 spec:
   generators:
   - git:
       repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
-      revision: sno-<name>-setup
+      revision: sno-4-setup
       files:
       - path: "config-definition/**/config.json"
   template:
@@ -18,7 +18,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
-        targetRevision: sno-<name>
+        targetRevision: sno-4
         path: .
         helm:
           valueFiles:
