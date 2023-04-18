@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: day2-as-sno-4
-  namespace: openshift-gitops
+  namespace: openshift-operators
 spec:
   generators:
   - git:
