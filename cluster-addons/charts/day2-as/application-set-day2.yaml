@@ -25,7 +25,6 @@ spec:
               - '{{valuesFile}}'        
       destination:
         server: 'https://kubernetes.default.svc'
-        namespace: 'openshift-gitops'
       syncPolicy:
         automated:
           prune: true
