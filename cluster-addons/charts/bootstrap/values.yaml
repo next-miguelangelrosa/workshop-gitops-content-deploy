@@ -24,3 +24,13 @@ vault:
   avp_auth_type: approle
   avp_role_id: a4400dee-f394-6002-ec0c-a0cf4f0969fb
   avp_secret_id: 1b08bf1b-c383-5224-4d10-a04502ae7046
+
+namespaces:
+  - name: app
+  - name: bookinfo
+  - name: dev
+  - name: ipa
+  - name: istio-system
+  - name: nmstate
+  - name: pro
+  - name: vault-secrets
