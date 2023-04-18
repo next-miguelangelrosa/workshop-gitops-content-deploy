@@ -10,7 +10,7 @@ spec:
       repoURL: https://github.com/romerobu/workshop-gitops-content-deploy.git
       revision: sno-4-setup
       files:
-      - path: "config-definition/**/config.json" 
+      - path: "cluster-definition/**/cluster.json" #"config-definition/**/config.json" 
   template:
     metadata:
       name: 'sno-4-{{path.basename}}'

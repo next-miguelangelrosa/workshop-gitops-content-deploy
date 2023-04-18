@@ -6,5 +6,6 @@
   "cluster": {
     "name": "sno-4",
     "address": "https://api.sno-4.sandbox39.opentlc.com:6443"
-  }
+  },
+  "configuration": "oauth"
 }
