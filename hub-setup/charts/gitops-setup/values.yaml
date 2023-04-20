@@ -13,12 +13,10 @@ global:
   domain: sandbox39
   sno:
     1: 
-      token: sha256~l0r6ocuUKgaVpQ_hJHb62dA4-9KiVWP0ZYtGvib1rmU      
+      token: sha256~_iqKarZJ-6iqbzpzw6aeoRkwD0slgoD_kwNE05zLWMQ      
     2:
-      token: sha256~1RNSi-LJWvWxkQjwigbjhXvkg0UAhSwp6UZLHCQ9oYA
+      token: sha256~KF45U9a8IbCcZk-L_zoMFrx5Tgg6p0FOzTg84LgNN5w
     3:
-      token: sha256~7RNU_P4W0oGzzHshVAM62jLaUQXLugmLBC6zPvn9VwQ
+      token: sha256~7RNU_P4W0oGzzHshVAM62jLaUQXLugmLBC6zPvn9VwQ # ko
     4:
-      token: sha256~JYSx_UmtDtsane2N-uLQDQG--U9N66FjWoGQsTuGYpw
-    6:
-      token: sha256~HIcgeKfaZTCsmwAYPTpbGOv3YqAt7FJltbOKHyYOaqQ
+      token: sha256~ZD0KbP2xCRfic9kXgZ5HgzP3CWcoYgw3sGlJMtfY0rw
