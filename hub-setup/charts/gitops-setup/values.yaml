@@ -15,4 +15,6 @@ global:
     1: 
       token: sha256~aBGbyPAKdaoaZPOm25yj7LeCrCsPzTSgS_WfwJKn7A8    
     5: 
-      token: sha256~YwnE_H_4jnczlJSElrlw70ev3gluMgf3K0sIAkyMuoM            
+      token: sha256~YwnE_H_4jnczlJSElrlw70ev3gluMgf3K0sIAkyMuoM      
+    6:
+      token: sha256~YwnE_H_4jnczlJSElrlw70ev3gluMgf3K0sIAkyMuoM      
