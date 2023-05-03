@@ -104,6 +104,7 @@ spec:
       - TaskRun
       - PipelineRun        
   server:
+    replicas: 2
     resources:
       limits:
         cpu: 500m
