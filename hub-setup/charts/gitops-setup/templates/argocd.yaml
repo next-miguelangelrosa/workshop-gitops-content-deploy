@@ -51,6 +51,9 @@ spec:
     logLevel: debug
   resourceTrackingMethod: annotation+label
   controller:
+    sharding:
+      enabled: true
+      replicas: 12
     logLevel: debug
     resources:
       limits:
