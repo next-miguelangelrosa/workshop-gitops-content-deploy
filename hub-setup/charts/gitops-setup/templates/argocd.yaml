@@ -53,7 +53,7 @@ spec:
   controller:
     sharding:
       enabled: true
-      replicas: 12
+      replicas: 15
     logLevel: debug
     resources:
       limits:
